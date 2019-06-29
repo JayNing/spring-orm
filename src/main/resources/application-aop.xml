@@ -28,7 +28,7 @@
 	<aop:config>
 		<aop:advisor advice-ref="transactionAdvice" pointcut-ref="transactionPointcut"/>
 		<aop:aspect ref="dataSource">
-			<aop:pointcut id="transactionPointcut" expression="execution(public * com.ning.demo.spring.*.service..*Service.*(..))" />
+			<aop:pointcut id="transactionPointcut" expression="execution(public * com.ning.spring.*.service..*Service.*(..))" />
 		</aop:aspect>
 	</aop:config>
 

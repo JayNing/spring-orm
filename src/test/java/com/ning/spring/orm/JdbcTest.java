@@ -1,7 +1,7 @@
-package com.ning.demo.spring.orm;
+package com.ning.spring.orm;
 
-import com.ning.demo.spring.orm.entity.Member;
-import com.ning.demo.spring.orm.entity.Order;
+import com.ning.spring.orm.demo.entity.Member;
+import com.ning.spring.orm.demo.entity.Order;
 
 import javax.persistence.Column;
 import javax.persistence.Table;

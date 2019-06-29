@@ -1,4 +1,4 @@
-package com.ning.demo.spring.orm.entity;
+package com.ning.spring.orm.demo.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.Table;

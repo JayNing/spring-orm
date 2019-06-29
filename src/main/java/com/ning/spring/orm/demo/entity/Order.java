@@ -1,4 +1,4 @@
-package com.ning.demo.spring.orm.entity;
+package com.ning.spring.orm.demo.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -12,7 +12,6 @@ import java.io.Serializable;
 @Table(name="t_order")
 public class Order implements Serializable {
     private Long id;
-    @Column(name="memberId")
     private Long memberId;
     private String detail;
     private Long createTime;
